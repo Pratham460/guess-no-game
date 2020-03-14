@@ -29,9 +29,7 @@ def checkC():
        label.configure(text=txt)
        btnC()
 
-    elif int(text_input) in numbers:
-       label.configure(text=txt)
-    
+   
     else:
        messagebox.showinfo('Message','Perfect Number')
    
@@ -109,8 +107,8 @@ bc.grid(row=7,column=0)
 label=tk.Label(window,text="Total chances are: 7",fg="purple",font=("arial",17))
 label.grid(row=8,column=0)
 
-label=tk.Label(window,text="Guess the number",fg="purple",font=("arial",17))
-label.grid(row=0,column=0)
+label1=tk.Label(window,text="Guess the number between 0 to 99",fg="purple",font=("arial",17))
+label1.grid(row=0,column=0)
 
 
 
